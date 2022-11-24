@@ -185,6 +185,7 @@ img{
   font-weight: var(--font-medium);
 }
 
+
 .nav__logo:hover{
   color: var(--first-color);
 }
@@ -286,6 +287,9 @@ img{
 }
 
 /*========== ABOUT ==========*/
+#head-about{
+  font-size: 25px;
+}
 .about__data{
   text-align: center;
 }
@@ -301,6 +305,9 @@ img{
 }
 
 /*========== SERVICES ==========*/
+#head-offering{
+  font-size: 50px;
+}
 .services__container{
   row-gap: 2.5rem;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -328,6 +335,9 @@ img{
 }
 
 /*========== MENU ==========*/
+#head-special{
+  font-size: 50px;
+}
 .menu__container{
   grid-template-columns: repeat(2, 1fr);
   justify-content: center;
@@ -376,6 +386,9 @@ img{
 }
 
 /*========== APP ==========*/
+#head-app{
+  font-size: 50px;
+}
 .app__data{
   text-align: center;
 }
@@ -399,6 +412,9 @@ img{
 }
 
 /*========== CONTACT ==========*/
+#head-talk{
+  font-size: 50px;
+}
 .contact__container{
   text-align: center;
 }
@@ -429,6 +445,10 @@ img{
   font-size: 1.5rem;
   color: var(--title-color);
   margin-right: var(--mb-2);
+}
+
+.footer__social:hover{
+  color: #069C54;
 }
 
 .footer__title{
@@ -559,3 +579,5 @@ img{
         height: 640px;
     }
 }
+
+
